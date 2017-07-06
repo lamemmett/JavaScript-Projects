@@ -1,0 +1,35 @@
+/* Emmett Lam
+
+	This page contains the styling for names.html
+*/
+
+body, input, button, option, select {
+	font-size: 12pt;
+	font-family: Georgia, serf;
+}
+
+q {
+	font-style: italic;
+}
+
+.rankingbar {
+	background-color: #FFBBBB;
+	height: 0px;
+	width: 50px;
+}
+
+.red {
+	color: red;
+}
+
+td {
+	font-weight: bold;
+	height: 250px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+#errors {
+	font-size: 30pt;
+	color: red;
+}

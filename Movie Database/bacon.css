@@ -1,0 +1,66 @@
+/* 
+Emmett Lam
+CSE 154 AH
+Homework 6 - Kevin Bacon
+This page contains the styling data for the MyMDb pages
+*/
+
+body {
+	font-family: "Comic Sans MS";
+	margin: 0px;
+	padding: 0px;
+}
+
+body, tr:nth-child(even) {
+  background-color: #dad9d4;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+#banner {
+	color: white;
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+#banner, #w3c {
+	background-image: url("https://webster.cs.washington.edu/images/kevinbacon/banner-background.png");
+	padding: 0.5em;
+}
+
+form {
+	width: 24em;
+}
+
+form, #frame, table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#frame {
+	box-shadow: 0 0 5px 5px #888;
+	width: 90%;
+}
+
+h1 {
+	margin: 0px;
+	margin-bottom: 1em;
+}
+
+#main {
+	background-color: white;
+	padding: 1em;
+	text-align: center;
+}
+
+#searchboxes {
+	margin-top: 1em;
+}
+
+table {
+	border: 1px solid gray;
+	border-collapse: collapse;
+	width: 700px;
+}
